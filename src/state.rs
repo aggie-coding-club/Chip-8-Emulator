@@ -8,5 +8,5 @@ struct State{
     delay_timer: u8,    //delay timer
     pc: u16,            //program counter
     sp: u8,             //stack pointer
-    memory: [u8, 4096]  //4kb of memory
+    memory: [u8; 4096]  //4kb of memory
 }
